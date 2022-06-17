@@ -20,7 +20,7 @@ public class Student_Controller {
 // add by Post
 	@PostMapping(value = "/add")
 	public String addDetails(@RequestBody Student s) {
-		System.out.println("Git push example");
+		System.out.println("Git push");
 		return stdser.addDetails(s);
 	}
 	
